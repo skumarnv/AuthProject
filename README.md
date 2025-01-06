@@ -1,3 +1,16 @@
+# React 
+**Features**
+React 18: The project is built using the latest features of React 18.
+Login Page: Users can log in using their credentials and receive a JWT token.
+Registration Page: New users can register to create an account.
+Dashboard Page: Displays user-specific information after successful login.
+JWT Integration: Secure token-based authentication to handle user sessions.
+
+**API Endpoints**
+This project assumes you have a backend server that supports the following endpoints:
+POST /login: Authenticate the user and return a JWT token.
+POST /register: Register a new user.
+GET /dashboard: Fetch user-specific data (requires a valid JWT token).
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
